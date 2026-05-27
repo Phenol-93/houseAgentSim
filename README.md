@@ -59,8 +59,8 @@ pip install -r requirements.txt
 如果要使用 AI 生成行为脚本或家庭成员视角分析，需要在项目根目录创建 `.env` 文件：
 
 ```text
-SILICONFLOW_API_KEY=你的硅基流动 API Key
-SILICONFLOW_MODEL=Pro/zai-org/GLM-4.7
+SILICONFLOW_API_KEY=your_API_Key
+SILICONFLOW_MODEL=your_model_name
 SILICONFLOW_BASE_URL=https://api.siliconflow.cn/v1
 ```
 
