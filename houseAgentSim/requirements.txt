@@ -1,0 +1,9 @@
+shapely
+numpy
+pandas
+matplotlib
+plotly
+streamlit
+pytest
+pydantic
+openai

@@ -1,0 +1,1671 @@
+{
+  "layout_id": "original_floorplan_001",
+  "layout_name": "???_???????",
+  "unit": "m",
+  "grid_size": 0.3,
+  "coordinate_system": {
+    "origin": "????????",
+    "x_axis": "????",
+    "y_axis": "????",
+    "source_image_dimensions_mm": [
+      7026,
+      15198
+    ],
+    "note": "?????????????????? mm ????? m?"
+  },
+  "boundary": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      4.023,
+      0.0
+    ],
+    [
+      4.023,
+      1.795
+    ],
+    [
+      7.026,
+      1.795
+    ],
+    [
+      7.026,
+      15.198
+    ],
+    [
+      4.023,
+      15.198
+    ],
+    [
+      4.023,
+      8.73
+    ],
+    [
+      2.158,
+      8.73
+    ],
+    [
+      2.158,
+      6.64
+    ],
+    [
+      0.0,
+      6.64
+    ]
+  ],
+  "rooms": [
+    {
+      "id": "kitchen",
+      "name": "??",
+      "type": "kitchen",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          4.023,
+          0.0
+        ],
+        [
+          4.023,
+          1.795
+        ],
+        [
+          0.0,
+          1.795
+        ]
+      ],
+      "capacity": 2,
+      "area_label_m2": 7.2
+    },
+    {
+      "id": "bathroom",
+      "name": "???",
+      "type": "bathroom",
+      "polygon": [
+        [
+          0.0,
+          1.795
+        ],
+        [
+          1.31,
+          1.795
+        ],
+        [
+          1.31,
+          4.768
+        ],
+        [
+          0.0,
+          4.768
+        ]
+      ],
+      "capacity": 1,
+      "area_label_m2": 4.3
+    },
+    {
+      "id": "dining",
+      "name": "??",
+      "type": "dining_room",
+      "polygon": [
+        [
+          1.31,
+          1.795
+        ],
+        [
+          4.023,
+          1.795
+        ],
+        [
+          4.023,
+          4.768
+        ],
+        [
+          1.31,
+          4.768
+        ]
+      ],
+      "capacity": 4,
+      "area_label_m2": 8.7
+    },
+    {
+      "id": "foyer",
+      "name": "??/?????",
+      "type": "foyer",
+      "polygon": [
+        [
+          0.0,
+          4.768
+        ],
+        [
+          4.023,
+          4.768
+        ],
+        [
+          4.023,
+          5.068
+        ],
+        [
+          2.158,
+          5.068
+        ],
+        [
+          2.158,
+          6.64
+        ],
+        [
+          0.0,
+          6.64
+        ]
+      ],
+      "capacity": 3
+    },
+    {
+      "id": "bedroom_second",
+      "name": "???????",
+      "type": "bedroom",
+      "polygon": [
+        [
+          4.023,
+          1.795
+        ],
+        [
+          7.026,
+          1.795
+        ],
+        [
+          7.026,
+          5.068
+        ],
+        [
+          4.023,
+          5.068
+        ]
+      ],
+      "capacity": 2,
+      "area_label_m2": 10.0
+    },
+    {
+      "id": "living",
+      "name": "??",
+      "type": "living_room",
+      "polygon": [
+        [
+          2.158,
+          5.068
+        ],
+        [
+          7.026,
+          5.068
+        ],
+        [
+          7.026,
+          8.73
+        ],
+        [
+          2.158,
+          8.73
+        ]
+      ],
+      "capacity": 5,
+      "area_label_m2": 19.3
+    },
+    {
+      "id": "bedroom_master",
+      "name": "??",
+      "type": "bedroom",
+      "polygon": [
+        [
+          4.023,
+          8.73
+        ],
+        [
+          7.026,
+          8.73
+        ],
+        [
+          7.026,
+          13.818
+        ],
+        [
+          4.023,
+          13.818
+        ]
+      ],
+      "capacity": 2,
+      "area_label_m2": 17.1
+    },
+    {
+      "id": "balcony",
+      "name": "??",
+      "type": "balcony",
+      "polygon": [
+        [
+          4.023,
+          13.818
+        ],
+        [
+          7.026,
+          13.818
+        ],
+        [
+          7.026,
+          15.198
+        ],
+        [
+          4.023,
+          15.198
+        ]
+      ],
+      "capacity": 2,
+      "area_label_m2": 4.7
+    }
+  ],
+  "walls": [
+    {
+      "id": "wall_external",
+      "polyline": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          4.023,
+          0.0
+        ],
+        [
+          4.023,
+          1.795
+        ],
+        [
+          7.026,
+          1.795
+        ],
+        [
+          7.026,
+          15.198
+        ],
+        [
+          4.023,
+          15.198
+        ],
+        [
+          4.023,
+          8.73
+        ],
+        [
+          2.158,
+          8.73
+        ],
+        [
+          2.158,
+          6.64
+        ],
+        [
+          0.0,
+          6.64
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "type": "external"
+    },
+    {
+      "id": "wall_kitchen_dining",
+      "polyline": [
+        [
+          0.0,
+          1.795
+        ],
+        [
+          4.023,
+          1.795
+        ]
+      ],
+      "type": "partition"
+    },
+    {
+      "id": "wall_bath_dining",
+      "polyline": [
+        [
+          1.31,
+          1.795
+        ],
+        [
+          1.31,
+          4.768
+        ]
+      ],
+      "type": "partition"
+    },
+    {
+      "id": "wall_bath_foyer",
+      "polyline": [
+        [
+          0.0,
+          4.768
+        ],
+        [
+          1.31,
+          4.768
+        ]
+      ],
+      "type": "partition"
+    },
+    {
+      "id": "wall_dining_foyer_living",
+      "polyline": [
+        [
+          1.31,
+          4.768
+        ],
+        [
+          4.023,
+          4.768
+        ]
+      ],
+      "type": "partition"
+    },
+    {
+      "id": "wall_foyer_living",
+      "polyline": [
+        [
+          2.158,
+          5.068
+        ],
+        [
+          2.158,
+          6.64
+        ]
+      ],
+      "type": "partition"
+    },
+    {
+      "id": "wall_dining_second",
+      "polyline": [
+        [
+          4.023,
+          1.795
+        ],
+        [
+          4.023,
+          5.068
+        ]
+      ],
+      "type": "partition"
+    },
+    {
+      "id": "wall_second_living",
+      "polyline": [
+        [
+          4.023,
+          5.068
+        ],
+        [
+          7.026,
+          5.068
+        ]
+      ],
+      "type": "partition"
+    },
+    {
+      "id": "wall_living_master",
+      "polyline": [
+        [
+          4.023,
+          8.73
+        ],
+        [
+          7.026,
+          8.73
+        ]
+      ],
+      "type": "partition"
+    },
+    {
+      "id": "wall_master_balcony",
+      "polyline": [
+        [
+          4.023,
+          13.818
+        ],
+        [
+          7.026,
+          13.818
+        ]
+      ],
+      "type": "partition"
+    }
+  ],
+  "doors": [
+    {
+      "id": "door_entry",
+      "from_room": "outside",
+      "to_room": "foyer",
+      "center": [
+        0.0,
+        5.52
+      ],
+      "width": 0.95,
+      "wall_id": "wall_external",
+      "type": "single_swing"
+    },
+    {
+      "id": "door_bathroom",
+      "from_room": "foyer",
+      "to_room": "bathroom",
+      "center": [
+        0.72,
+        4.768
+      ],
+      "width": 0.75,
+      "wall_id": "wall_bath_foyer",
+      "type": "single_swing"
+    },
+    {
+      "id": "door_kitchen",
+      "from_room": "dining",
+      "to_room": "kitchen",
+      "center": [
+        2.35,
+        1.795
+      ],
+      "width": 0.85,
+      "wall_id": "wall_kitchen_dining",
+      "type": "single_swing"
+    },
+    {
+      "id": "opening_dining_living",
+      "from_room": "dining",
+      "to_room": "living",
+      "center": [
+        2.8,
+        4.768
+      ],
+      "width": 1.0,
+      "wall_id": "wall_dining_foyer_living",
+      "type": "opening"
+    },
+    {
+      "id": "opening_foyer_living",
+      "from_room": "foyer",
+      "to_room": "living",
+      "center": [
+        2.158,
+        5.75
+      ],
+      "width": 0.95,
+      "wall_id": "wall_foyer_living",
+      "type": "opening"
+    },
+    {
+      "id": "door_bedroom_second",
+      "from_room": "living",
+      "to_room": "bedroom_second",
+      "center": [
+        4.55,
+        5.068
+      ],
+      "width": 0.85,
+      "wall_id": "wall_second_living",
+      "type": "single_swing"
+    },
+    {
+      "id": "door_bedroom_master",
+      "from_room": "living",
+      "to_room": "bedroom_master",
+      "center": [
+        4.52,
+        8.73
+      ],
+      "width": 0.85,
+      "wall_id": "wall_living_master",
+      "type": "single_swing"
+    },
+    {
+      "id": "door_master_balcony",
+      "from_room": "bedroom_master",
+      "to_room": "balcony",
+      "center": [
+        5.3,
+        13.818
+      ],
+      "width": 1.6,
+      "wall_id": "wall_master_balcony",
+      "type": "sliding_or_opening"
+    }
+  ],
+  "furniture": [
+    {
+      "id": "counter_kitchen_north",
+      "name": "???????",
+      "room": "kitchen",
+      "polygon": [
+        [
+          1.2,
+          0.1
+        ],
+        [
+          3.0,
+          0.1
+        ],
+        [
+          3.0,
+          0.45
+        ],
+        [
+          1.2,
+          0.45
+        ]
+      ],
+      "walkable": false
+    },
+    {
+      "id": "stove_kitchen",
+      "name": "??",
+      "room": "kitchen",
+      "polygon": [
+        [
+          0.25,
+          0.55
+        ],
+        [
+          0.75,
+          0.55
+        ],
+        [
+          0.75,
+          1.25
+        ],
+        [
+          0.25,
+          1.25
+        ]
+      ],
+      "walkable": false
+    },
+    {
+      "id": "sink_kitchen",
+      "name": "????",
+      "room": "kitchen",
+      "polygon": [
+        [
+          1.9,
+          0.15
+        ],
+        [
+          2.55,
+          0.15
+        ],
+        [
+          2.55,
+          0.5
+        ],
+        [
+          1.9,
+          0.5
+        ]
+      ],
+      "walkable": false
+    },
+    {
+      "id": "washer_dryer_kitchen",
+      "name": "???",
+      "room": "kitchen",
+      "polygon": [
+        [
+          3.25,
+          0.55
+        ],
+        [
+          3.9,
+          0.55
+        ],
+        [
+          3.9,
+          1.55
+        ],
+        [
+          3.25,
+          1.55
+        ]
+      ],
+      "walkable": false
+    },
+    {
+      "id": "shower_bathroom",
+      "name": "???",
+      "room": "bathroom",
+      "polygon": [
+        [
+          0.2,
+          2.1
+        ],
+        [
+          0.78,
+          2.1
+        ],
+        [
+          0.78,
+          2.8
+        ],
+        [
+          0.2,
+          2.8
+        ]
+      ],
+      "walkable": true
+    },
+    {
+      "id": "toilet_bathroom",
+      "name": "???",
+      "room": "bathroom",
+      "polygon": [
+        [
+          0.2,
+          3.1
+        ],
+        [
+          0.7,
+          3.1
+        ],
+        [
+          0.7,
+          3.65
+        ],
+        [
+          0.2,
+          3.65
+        ]
+      ],
+      "walkable": false
+    },
+    {
+      "id": "basin_bathroom",
+      "name": "??????",
+      "room": "bathroom",
+      "polygon": [
+        [
+          0.2,
+          4.05
+        ],
+        [
+          0.7,
+          4.05
+        ],
+        [
+          0.7,
+          4.55
+        ],
+        [
+          0.2,
+          4.55
+        ]
+      ],
+      "walkable": false
+    },
+    {
+      "id": "external_washstand",
+      "name": "?????",
+      "room": "foyer",
+      "polygon": [
+        [
+          0.25,
+          5.0
+        ],
+        [
+          0.9,
+          5.0
+        ],
+        [
+          0.9,
+          5.6
+        ],
+        [
+          0.25,
+          5.6
+        ]
+      ],
+      "walkable": false
+    },
+    {
+      "id": "table_dining",
+      "name": "??",
+      "room": "dining",
+      "polygon": [
+        [
+          2.25,
+          2.75
+        ],
+        [
+          3.05,
+          2.75
+        ],
+        [
+          3.05,
+          3.55
+        ],
+        [
+          2.25,
+          3.55
+        ]
+      ],
+      "walkable": false
+    },
+    {
+      "id": "chairs_dining",
+      "name": "??",
+      "room": "dining",
+      "polygon": [
+        [
+          1.95,
+          2.45
+        ],
+        [
+          3.35,
+          2.45
+        ],
+        [
+          3.35,
+          3.85
+        ],
+        [
+          1.95,
+          3.85
+        ]
+      ],
+      "walkable": true
+    },
+    {
+      "id": "side_medicine_cabinet",
+      "name": "???/???",
+      "room": "dining",
+      "polygon": [
+        [
+          3.55,
+          1.95
+        ],
+        [
+          4.0,
+          1.95
+        ],
+        [
+          4.0,
+          4.7
+        ],
+        [
+          3.55,
+          4.7
+        ]
+      ],
+      "walkable": false
+    },
+    {
+      "id": "care_record_desk",
+      "name": "?????",
+      "room": "bedroom_second",
+      "polygon": [
+        [
+          4.85,
+          2.05
+        ],
+        [
+          6.7,
+          2.05
+        ],
+        [
+          6.7,
+          2.4
+        ],
+        [
+          4.85,
+          2.4
+        ]
+      ],
+      "walkable": false
+    },
+    {
+      "id": "caregiver_chair",
+      "name": "?????",
+      "room": "bedroom_second",
+      "polygon": [
+        [
+          4.75,
+          2.45
+        ],
+        [
+          5.15,
+          2.45
+        ],
+        [
+          5.15,
+          2.85
+        ],
+        [
+          4.75,
+          2.85
+        ]
+      ],
+      "walkable": true
+    },
+    {
+      "id": "bed_second",
+      "name": "??/???",
+      "room": "bedroom_second",
+      "polygon": [
+        [
+          5.55,
+          2.65
+        ],
+        [
+          6.85,
+          2.65
+        ],
+        [
+          6.85,
+          4.25
+        ],
+        [
+          5.55,
+          4.25
+        ]
+      ],
+      "walkable": false
+    },
+    {
+      "id": "wardrobe_second",
+      "name": "????",
+      "room": "bedroom_second",
+      "polygon": [
+        [
+          5.0,
+          4.55
+        ],
+        [
+          6.9,
+          4.55
+        ],
+        [
+          6.9,
+          5.0
+        ],
+        [
+          5.0,
+          5.0
+        ]
+      ],
+      "walkable": false
+    },
+    {
+      "id": "sofa_living",
+      "name": "????",
+      "room": "living",
+      "polygon": [
+        [
+          4.15,
+          6.05
+        ],
+        [
+          4.95,
+          6.05
+        ],
+        [
+          4.95,
+          7.2
+        ],
+        [
+          4.15,
+          7.2
+        ]
+      ],
+      "walkable": false
+    },
+    {
+      "id": "coffee_table_living",
+      "name": "??",
+      "room": "living",
+      "polygon": [
+        [
+          4.25,
+          7.35
+        ],
+        [
+          4.75,
+          7.35
+        ],
+        [
+          4.75,
+          7.85
+        ],
+        [
+          4.25,
+          7.85
+        ]
+      ],
+      "walkable": false
+    },
+    {
+      "id": "single_chair_living",
+      "name": "??",
+      "room": "living",
+      "polygon": [
+        [
+          5.15,
+          7.15
+        ],
+        [
+          5.75,
+          7.15
+        ],
+        [
+          5.75,
+          7.8
+        ],
+        [
+          5.15,
+          7.8
+        ]
+      ],
+      "walkable": false
+    },
+    {
+      "id": "tv_cabinet_living",
+      "name": "???",
+      "room": "living",
+      "polygon": [
+        [
+          6.72,
+          6.6
+        ],
+        [
+          6.98,
+          6.6
+        ],
+        [
+          6.98,
+          8.1
+        ],
+        [
+          6.72,
+          8.1
+        ]
+      ],
+      "walkable": false
+    },
+    {
+      "id": "wardrobe_master",
+      "name": "????",
+      "room": "bedroom_master",
+      "polygon": [
+        [
+          4.9,
+          8.9
+        ],
+        [
+          7.0,
+          8.9
+        ],
+        [
+          7.0,
+          9.35
+        ],
+        [
+          4.9,
+          9.35
+        ]
+      ],
+      "walkable": false
+    },
+    {
+      "id": "bed_master",
+      "name": "???",
+      "room": "bedroom_master",
+      "polygon": [
+        [
+          5.25,
+          10.2
+        ],
+        [
+          6.85,
+          10.2
+        ],
+        [
+          6.85,
+          12.0
+        ],
+        [
+          5.25,
+          12.0
+        ]
+      ],
+      "walkable": false
+    },
+    {
+      "id": "nightstands_master",
+      "name": "?????",
+      "room": "bedroom_master",
+      "polygon": [
+        [
+          6.55,
+          9.85
+        ],
+        [
+          7.0,
+          9.85
+        ],
+        [
+          7.0,
+          12.3
+        ],
+        [
+          6.55,
+          12.3
+        ]
+      ],
+      "walkable": true
+    },
+    {
+      "id": "care_cabinet_master",
+      "name": "???/?????",
+      "room": "bedroom_master",
+      "polygon": [
+        [
+          4.1,
+          11.7
+        ],
+        [
+          4.55,
+          11.7
+        ],
+        [
+          4.55,
+          12.8
+        ],
+        [
+          4.1,
+          12.8
+        ]
+      ],
+      "walkable": false
+    },
+    {
+      "id": "plant_balcony_left",
+      "name": "??????",
+      "room": "balcony",
+      "polygon": [
+        [
+          4.15,
+          14.25
+        ],
+        [
+          4.55,
+          14.25
+        ],
+        [
+          4.55,
+          14.75
+        ],
+        [
+          4.15,
+          14.75
+        ]
+      ],
+      "walkable": false
+    },
+    {
+      "id": "balcony_chair",
+      "name": "?????",
+      "room": "balcony",
+      "polygon": [
+        [
+          5.25,
+          14.1
+        ],
+        [
+          5.85,
+          14.1
+        ],
+        [
+          5.85,
+          14.75
+        ],
+        [
+          5.25,
+          14.75
+        ]
+      ],
+      "walkable": false
+    },
+    {
+      "id": "plant_balcony_right",
+      "name": "??????",
+      "room": "balcony",
+      "polygon": [
+        [
+          6.35,
+          14.25
+        ],
+        [
+          6.85,
+          14.25
+        ],
+        [
+          6.85,
+          14.75
+        ],
+        [
+          6.35,
+          14.75
+        ]
+      ],
+      "walkable": false
+    }
+  ],
+  "activity_points": [
+    {
+      "id": "entry_inside",
+      "name": "???",
+      "room": "foyer",
+      "position": [
+        0.95,
+        5.75
+      ],
+      "activity_type": "enter",
+      "capacity": 2
+    },
+    {
+      "id": "entry",
+      "name": "????????",
+      "room": "foyer",
+      "position": [
+        1.25,
+        5.75
+      ],
+      "activity_type": "entry",
+      "capacity": 2
+    },
+    {
+      "id": "foyer_night_light",
+      "name": "????/?????",
+      "room": "foyer",
+      "position": [
+        1.75,
+        5.75
+      ],
+      "activity_type": "transition",
+      "capacity": 2
+    },
+    {
+      "id": "external_washstand_use",
+      "name": "????????",
+      "room": "foyer",
+      "position": [
+        1.05,
+        5.25
+      ],
+      "activity_type": "wash",
+      "capacity": 1
+    },
+    {
+      "id": "kitchen_stove",
+      "name": "???????",
+      "room": "kitchen",
+      "position": [
+        1.0,
+        1.05
+      ],
+      "activity_type": "cook",
+      "capacity": 1
+    },
+    {
+      "id": "kitchen_sink",
+      "name": "???????",
+      "room": "kitchen",
+      "position": [
+        2.25,
+        0.65
+      ],
+      "activity_type": "wash",
+      "capacity": 1
+    },
+    {
+      "id": "kitchen_counter",
+      "name": "?????",
+      "room": "kitchen",
+      "position": [
+        1.65,
+        1.2
+      ],
+      "activity_type": "prep_food",
+      "capacity": 2
+    },
+    {
+      "id": "kitchen_fridge",
+      "name": "?????",
+      "room": "kitchen",
+      "position": [
+        3.05,
+        1.2
+      ],
+      "activity_type": "storage",
+      "capacity": 1
+    },
+    {
+      "id": "kitchen_check",
+      "name": "???????",
+      "room": "kitchen",
+      "position": [
+        3.05,
+        1.25
+      ],
+      "activity_type": "check",
+      "capacity": 2
+    },
+    {
+      "id": "laundry_machine",
+      "name": "??????",
+      "room": "kitchen",
+      "position": [
+        3.05,
+        0.85
+      ],
+      "activity_type": "laundry",
+      "capacity": 1
+    },
+    {
+      "id": "dining_table",
+      "name": "?????",
+      "room": "dining",
+      "position": [
+        1.7,
+        3.15
+      ],
+      "activity_type": "eat",
+      "capacity": 3
+    },
+    {
+      "id": "dining_seat",
+      "name": "??????",
+      "room": "dining",
+      "position": [
+        1.7,
+        3.45
+      ],
+      "activity_type": "eat",
+      "capacity": 3
+    },
+    {
+      "id": "medicine_table",
+      "name": "????/???",
+      "room": "dining",
+      "position": [
+        3.3,
+        4.25
+      ],
+      "activity_type": "medicine",
+      "capacity": 3
+    },
+    {
+      "id": "dining_housework_supervision",
+      "name": "??????/?????",
+      "room": "dining",
+      "position": [
+        3.25,
+        2.25
+      ],
+      "activity_type": "housework_supervision",
+      "capacity": 2
+    },
+    {
+      "id": "bathroom_toilet",
+      "name": "??????",
+      "room": "bathroom",
+      "position": [
+        0.95,
+        3.4
+      ],
+      "activity_type": "toilet",
+      "capacity": 1
+    },
+    {
+      "id": "bathroom_basin",
+      "name": "??????",
+      "room": "bathroom",
+      "position": [
+        0.95,
+        4.3
+      ],
+      "activity_type": "wash",
+      "capacity": 1
+    },
+    {
+      "id": "bathroom_sink",
+      "name": "??????",
+      "room": "bathroom",
+      "position": [
+        1.0,
+        4.2
+      ],
+      "activity_type": "wash",
+      "capacity": 1
+    },
+    {
+      "id": "bathroom_shower",
+      "name": "??????",
+      "room": "bathroom",
+      "position": [
+        0.95,
+        2.45
+      ],
+      "activity_type": "shower",
+      "capacity": 1
+    },
+    {
+      "id": "bathroom_assist",
+      "name": "????????",
+      "room": "bathroom",
+      "position": [
+        1.05,
+        3.85
+      ],
+      "activity_type": "care_assist",
+      "capacity": 2
+    },
+    {
+      "id": "living_sofa",
+      "name": "???????",
+      "room": "living",
+      "position": [
+        3.85,
+        7.0
+      ],
+      "activity_type": "rest",
+      "capacity": 3
+    },
+    {
+      "id": "sofa",
+      "name": "????????",
+      "room": "living",
+      "position": [
+        4.85,
+        7.45
+      ],
+      "activity_type": "rest",
+      "capacity": 3
+    },
+    {
+      "id": "living_tv",
+      "name": "???????",
+      "room": "living",
+      "position": [
+        5.05,
+        8.1
+      ],
+      "activity_type": "watch_tv",
+      "capacity": 3
+    },
+    {
+      "id": "tv",
+      "name": "???????",
+      "room": "living",
+      "position": [
+        5.35,
+        8.15
+      ],
+      "activity_type": "watch_tv",
+      "capacity": 3
+    },
+    {
+      "id": "phone_corner",
+      "name": "??????",
+      "room": "living",
+      "position": [
+        6.15,
+        8.2
+      ],
+      "activity_type": "phone",
+      "capacity": 1
+    },
+    {
+      "id": "living_sunspot",
+      "name": "?????/????",
+      "room": "living",
+      "position": [
+        5.3,
+        6.15
+      ],
+      "activity_type": "rest",
+      "capacity": 2
+    },
+    {
+      "id": "rehab_corner",
+      "name": "??????????",
+      "room": "living",
+      "position": [
+        5.85,
+        6.55
+      ],
+      "activity_type": "rehab",
+      "capacity": 2
+    },
+    {
+      "id": "care_observation",
+      "name": "???????",
+      "room": "living",
+      "position": [
+        5.95,
+        7.4
+      ],
+      "activity_type": "care_observe",
+      "capacity": 2
+    },
+    {
+      "id": "master_bed",
+      "name": "???????",
+      "room": "bedroom_master",
+      "position": [
+        4.75,
+        11.0
+      ],
+      "activity_type": "sleep",
+      "capacity": 2
+    },
+    {
+      "id": "bedroom_master_bed",
+      "name": "?????",
+      "room": "bedroom_master",
+      "position": [
+        4.75,
+        10.65
+      ],
+      "activity_type": "sleep",
+      "capacity": 2
+    },
+    {
+      "id": "master_bedside",
+      "name": "????/?????",
+      "room": "bedroom_master",
+      "position": [
+        4.7,
+        10.2
+      ],
+      "activity_type": "bedside",
+      "capacity": 3
+    },
+    {
+      "id": "master_transfer",
+      "name": "?????????",
+      "room": "bedroom_master",
+      "position": [
+        4.7,
+        11.55
+      ],
+      "activity_type": "care_transfer",
+      "capacity": 3
+    },
+    {
+      "id": "master_medicine",
+      "name": "??????????",
+      "room": "bedroom_master",
+      "position": [
+        4.7,
+        12.45
+      ],
+      "activity_type": "medicine",
+      "capacity": 2
+    },
+    {
+      "id": "master_wardrobe_use",
+      "name": "???????",
+      "room": "bedroom_master",
+      "position": [
+        4.55,
+        9.7
+      ],
+      "activity_type": "storage",
+      "capacity": 2
+    },
+    {
+      "id": "master_quiet_rest",
+      "name": "???????",
+      "room": "bedroom_master",
+      "position": [
+        4.65,
+        13.0
+      ],
+      "activity_type": "rest",
+      "capacity": 1
+    },
+    {
+      "id": "night_call",
+      "name": "???????",
+      "room": "bedroom_master",
+      "position": [
+        4.65,
+        11.25
+      ],
+      "activity_type": "night_call",
+      "capacity": 2
+    },
+    {
+      "id": "second_bedroom",
+      "name": "??/?????",
+      "room": "bedroom_second",
+      "position": [
+        5.05,
+        3.45
+      ],
+      "activity_type": "sleep",
+      "capacity": 1
+    },
+    {
+      "id": "bedroom_second_bed",
+      "name": "?????",
+      "room": "bedroom_second",
+      "position": [
+        5.05,
+        3.75
+      ],
+      "activity_type": "sleep",
+      "capacity": 1
+    },
+    {
+      "id": "secondary_bed",
+      "name": "?????",
+      "room": "bedroom_second",
+      "position": [
+        5.05,
+        4.1
+      ],
+      "activity_type": "sleep",
+      "capacity": 1
+    },
+    {
+      "id": "caregiver_storage",
+      "name": "?????????",
+      "room": "bedroom_second",
+      "position": [
+        4.6,
+        4.35
+      ],
+      "activity_type": "storage",
+      "capacity": 1
+    },
+    {
+      "id": "caregiver_night_response",
+      "name": "?????????",
+      "room": "bedroom_second",
+      "position": [
+        4.55,
+        4.85
+      ],
+      "activity_type": "night_response",
+      "capacity": 1
+    },
+    {
+      "id": "care_record",
+      "name": "???????",
+      "room": "bedroom_second",
+      "position": [
+        4.65,
+        2.65
+      ],
+      "activity_type": "care_record",
+      "capacity": 1
+    },
+    {
+      "id": "balcony_use",
+      "name": "?????",
+      "room": "balcony",
+      "position": [
+        5.5,
+        14.0
+      ],
+      "activity_type": "balcony",
+      "capacity": 2
+    },
+    {
+      "id": "balcony_laundry",
+      "name": "?????",
+      "room": "balcony",
+      "position": [
+        4.75,
+        14.2
+      ],
+      "activity_type": "laundry",
+      "capacity": 2
+    },
+    {
+      "id": "balcony_plants",
+      "name": "???????",
+      "room": "balcony",
+      "position": [
+        6.1,
+        14.1
+      ],
+      "activity_type": "plants",
+      "capacity": 2
+    },
+    {
+      "id": "balcony_check",
+      "name": "???????",
+      "room": "balcony",
+      "position": [
+        5.45,
+        13.95
+      ],
+      "activity_type": "check",
+      "capacity": 2
+    }
+  ],
+  "constraints": {
+    "wall_thickness": 0.12,
+    "keep_structural_walls": true,
+    "load_bearing_wall_ids": []
+  }
+}
